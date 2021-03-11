@@ -1,0 +1,24 @@
+{
+    "name": "longdaihai/tools",
+    "description": "tools",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "keywords": ["longdaihai","php","tools","工具类","常用工具"],
+    "authors": [
+        {
+            "name": "HanSheng",
+            "email": "164897033@qq.com",
+            "homepage": "https://gitee.com/haiyunyi_cn"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "longdaihai\\tools\\": "src"
+        }
+    }
+}
